@@ -8,7 +8,7 @@
         ColumnDefinitions="*"
         Padding="24"
         RowSpacing="16">
-
+    
         <Border
             Grid.Row="0"
             Grid.Column="0">
@@ -27,6 +27,7 @@
                     HorizontalOptions="End"
                     VerticalOptions="Center"/>
                 <Entry
+                    TextColor="Black"
                     Grid.Row="0"
                     Grid.Column="1"
                     Grid.ColumnSpan="2"
@@ -39,6 +40,7 @@
                     HorizontalOptions="End"
                     VerticalOptions="Center"/>
                 <Entry
+                    TextColor="Black"
                     Grid.Row="1"
                     Grid.Column="1"
                     BackgroundColor="WhiteSmoke"/>
@@ -74,6 +76,7 @@
                     HorizontalOptions="End"
                     VerticalOptions="Center"/>
                 <Entry
+                    TextColor="Black"
                     Grid.Row="3"
                     Grid.Column="1"
                     BackgroundColor="WhiteSmoke"
@@ -116,57 +119,57 @@
                 <Label
                     Grid.Row="0"
                     Grid.Column="1"
-                    Text="1500"
+                    Text="$1500.00"
                     HorizontalTextAlignment="End"/>
 
                 <Label
                     Grid.Row="1"
                     Grid.Column="0"
-                    Text="importe del consumo por person: "/>
+                    Text="Importe del consumo por persona: "/>
                 <Label
                     Grid.Row="1"
                     Grid.Column="1"
-                    Text="500"
+                    Text="$500.00"
                     HorizontalTextAlignment="End"/>
 
                 <Label
                     Grid.Row="2"
                     Grid.Column="0"
-                    Text="importe de la propina: "/>
+                    Text="Importe de la propina: "/>
                 <Label
                     Grid.Row="2"
                     Grid.Column="1"
-                    Text="150"
+                    Text="$150.00"
                     HorizontalTextAlignment="End"/>
 
                 <Label
                     Grid.Row="3"
                     Grid.Column="0"
-                    Text="porpina por persona: "/>
+                    Text="Propina por persona: "/>
                 <Label
                     Grid.Row="3"
                     Grid.Column="1"
-                    Text="50"
+                    Text="$50.00"
                     HorizontalTextAlignment="End"/>
 
                 <Label
                     Grid.Row="4"
                     Grid.Column="0"
-                    Text="importe total de propina: "/>
+                    Text="Importe total con propina: "/>
                 <Label
                     Grid.Row="4"
                     Grid.Column="1"
-                    Text="1650"
+                    Text="$1650.00"
                     HorizontalTextAlignment="End"/>
 
                 <Label
                     Grid.Row="5"
                     Grid.Column="0"
-                    Text="importe con porpina por persona: "/>
+                    Text="Importe total con propina por persona: "/>
                 <Label
                     Grid.Row="5"
                     Grid.Column="1"
-                    Text="550"
+                    Text="$550.00"
                     HorizontalTextAlignment="End"/>
 
             </Grid>
